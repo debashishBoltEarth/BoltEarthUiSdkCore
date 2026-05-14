@@ -34,11 +34,12 @@ Pod::Spec.new do |s|
   s.dependency 'FittedSheets',         '2.7.1'
   s.dependency 'DropDown',             '2.3.13'
   s.dependency 'IQKeyboardManagerSwift', '6.5.11'
-  # PhoneNumberKit: consumer must add via git source in their Podfile:
-  # pod 'PhoneNumberKit', :git => 'https://github.com/marmelroy/PhoneNumberKit.git', :tag => '3.7.3'
   s.dependency 'PhoneNumberKit', '3.7.3'
+
   # HyperSDK is dynamic — linked against the XCFramework at build time.
   # Must be declared here so the consumer app embeds it and its transitive
   # deps (Airborne, HyperCore, JuspaySafeBrowser) at runtime via @rpath.
+
   s.dependency 'HyperSDK',             '2.2.5'
+
 end
