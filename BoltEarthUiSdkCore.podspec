@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'BoltEarthUiSdkCore'
-  s.version          = '1.0.0'
+  s.version          = '1.0.1'
   s.summary          = 'BoltEarth iOS UI SDK for native and hybrid applications.'
   s.description      = <<-DESC
     BoltEarth iOS UI SDK providing core UI components and utilities
@@ -15,10 +15,10 @@ Pod::Spec.new do |s|
   s.swift_version    = '5.0'
 
   # For remote distribution, replace with:
-  # s.source = { :http => 'https://your-cdn.com/BoltEarthUiSdkCore-1.0.0.zip' }
+  # s.source = { :http => 'https://your-cdn.com/BoltEarthUiSdkCore-1.0.1.zip' }
   # s.source           = { :git => 'https://github.com/boltearth/BoltEarthUiSdkCore.git', :tag => s.version.to_s }
   s.source = {
-  :http => 'https://github.com/debashish310/BoltEarthUiSdkCore/releases/download/1.0.0/BoltEarthUiSdkCore.xcframework.zip'
+  :http => 'https://github.com/debashish310/BoltEarthUiSdkCore/releases/download/1.0.1/BoltEarthUiSdkCore.xcframework.zip'
   }
 
   s.vendored_frameworks = 'BoltEarthUiSdkCore.xcframework'
@@ -33,7 +33,7 @@ Pod::Spec.new do |s|
   s.dependency 'Rudder',               '1.31.1'
   s.dependency 'FittedSheets',         '2.7.1'
   s.dependency 'DropDown',             '2.3.13'
-  s.dependency 'IQKeyboardManagerSwift', '6.5.11'
+  s.dependency 'IQKeyboardManagerSwift', '~> 8.0'
   s.dependency 'PhoneNumberKit', '3.7.3'
 
   # HyperSDK is dynamic — linked against the XCFramework at build time.
