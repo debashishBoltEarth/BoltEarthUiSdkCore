@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
   # s.source = { :http => 'https://your-cdn.com/BoltEarthUiSdkCore-1.0.1.zip' }
   # s.source           = { :git => 'https://github.com/boltearth/BoltEarthUiSdkCore.git', :tag => s.version.to_s }
   s.source = {
-  :http => 'https://github.com/debashish310/BoltEarthUiSdkCore/releases/download/1.0.1/BoltEarthUiSdkCore.xcframework.zip'
+  :http => 'https://github.com/debashish310/BoltEarthUiSdkCore/releases/download/1.0.1/BoltEarthUiSdkCore-1.0.1.zip'
   }
 
   s.vendored_frameworks = 'BoltEarthUiSdkCore.xcframework'
