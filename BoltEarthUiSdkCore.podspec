@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'BoltEarthUiSdkCore'
-  s.version          = '1.0.1'
+  s.version          = '1.1.0'
   s.summary          = 'BoltEarth iOS UI SDK for native and hybrid applications.'
   s.description      = <<-DESC
     BoltEarth iOS UI SDK providing core UI components and utilities
@@ -15,10 +15,10 @@ Pod::Spec.new do |s|
   s.swift_version    = '5.0'
 
   # For remote distribution, replace with:
-  # s.source = { :http => 'https://your-cdn.com/BoltEarthUiSdkCore-1.0.1.zip' }
+  # s.source = { :http => 'https://your-cdn.com/BoltEarthUiSdkCore-1.1.0.zip' }
   # s.source           = { :git => 'https://github.com/boltearth/BoltEarthUiSdkCore.git', :tag => s.version.to_s }
   s.source = {
-  :http => 'https://github.com/debashish310/BoltEarthUiSdkCore/releases/download/1.0.1/BoltEarthUiSdkCore-1.0.1.zip'
+  :http => 'https://github.com/debashish310/BoltEarthUiSdkCore/releases/download/1.1.0/BoltEarthUiSdkCore-1.1.0.zip'
   }
 
   s.vendored_frameworks = 'BoltEarthUiSdkCore.xcframework'
@@ -41,5 +41,6 @@ Pod::Spec.new do |s|
   # deps (Airborne, HyperCore, JuspaySafeBrowser) at runtime via @rpath.
 
   s.dependency 'HyperSDK',             '2.2.5'
+  s.dependency 'DGCharts', '5.1.0'
 
 end
