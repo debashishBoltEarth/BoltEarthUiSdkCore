@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'BoltEarthUiSdkCore'
-  s.version          = '1.1.3'
+  s.version          = '1.1.4'
   s.summary          = 'BoltEarth iOS UI SDK for native and hybrid applications.'
   s.description      = <<-DESC
     BoltEarth iOS UI SDK providing core UI components and utilities
@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
   s.swift_version    = '5.0'
 
   s.source = {
-    :http => 'https://github.com/debashish310/BoltEarthUiSdkCore/releases/download/1.1.3/BoltEarthUiSdkCore-1.1.3.zip'
+    :http => 'https://github.com/debashish310/BoltEarthUiSdkCore/releases/download/1.1.4/BoltEarthUiSdkCore-1.1.4.zip'
   }
 
   s.vendored_frameworks = 'BoltEarthUiSdkCore.xcframework'
