@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
   s.swift_version    = '5.0'
 
   s.source = {
-    :http => 'https://github.com/debashish310/BoltEarthUiSdkCore/releases/download/1.1.4/BoltEarthUiSdkCore-1.1.4.zip'
+    :http => 'https://github.com/debashishBoltEarth/BoltEarthUiSdkCore/releases/download/1.1.4/BoltEarthUiSdkCore-1.1.4.zip'
   }
 
   s.vendored_frameworks = 'BoltEarthUiSdkCore.xcframework'
