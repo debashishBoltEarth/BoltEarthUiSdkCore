@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'BoltEarthUiSdkCore'
-  s.version          = '1.1.4'
+  s.version          = '1.1.5'
   s.summary          = 'BoltEarth iOS UI SDK for native and hybrid applications.'
   s.description      = <<-DESC
     BoltEarth iOS UI SDK providing core UI components and utilities
@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
   s.swift_version    = '5.0'
 
   s.source = {
-    :http => 'https://github.com/debashishBoltEarth/BoltEarthUiSdkCore/releases/download/1.1.4/BoltEarthUiSdkCore-1.1.4.zip'
+    :http => 'https://github.com/debashishBoltEarth/BoltEarthUiSdkCore/releases/download/1.1.5/BoltEarthUiSdkCore-1.1.5.zip'
   }
 
   s.vendored_frameworks = 'BoltEarthUiSdkCore.xcframework'
@@ -44,5 +44,8 @@ Pod::Spec.new do |s|
   s.dependency 'HyperSDK',             '2.2.5'
 
   s.dependency 'DGCharts',             '5.1.0'
+
+  s.dependency 'GoogleMaps',   '7.4.0'
+  s.dependency 'GooglePlaces', '7.4.0'
 
 end
