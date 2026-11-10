@@ -45,7 +45,4 @@ Pod::Spec.new do |s|
 
   s.dependency 'DGCharts',             '5.1.0'
 
-  s.dependency 'GoogleMaps',   '7.4.0'
-  s.dependency 'GooglePlaces', '7.4.0'
-
 end
